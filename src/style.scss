@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "PT Serif";
+    src: url('./PTSerif-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+* {
+    font-family: "PT Serif", sans-serif;
+}
+//@font-face {
+//    font-family: 'PT Serif';
+//    src:  url('./PTSerif-RegularItalic.ttf') format('ttf');
+//    font-weight: 400;
+//    font-style: italic;
+//}
+//
+//@font-face {
+//    font-family: 'PT Serif';
+//    src:  url('./PTSerif-Bold.ttf') format('ttf');
+//    font-weight: bold;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'PT Serif';
+//    src:  url('./PTSerif-BoldItalic.ttf') format('ttf');
+//    font-weight: bold;
+//    font-style: italic;
+//}
+
+$body-color: red;
+
+body {
+    color: $body-color;
+    font-family: 'PT Serif', serif;
+    background: url('./icon.svg');
+}
